@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Ticket Scanner</string>
+    <string name="scanned_code">Code : %1$s</string>
+    <string name="scan">Scan my ticket</string>
+    <string name="instructions_text">Click on the scan button and hold your ticket in front of the camera to check it\'s validity</string>
+    <string name="ticket_valid">Cooooool !! Your ticket is perfectly valid</string>
+    <string name="ticket_invalid">Sorry… We couldn\'t find your ticket in our database</string>
+    <string name="error_server">Sorry… We couldn\'t reach our database to check your ticket</string>
+    <string name="okay">OKAY</string>
+</resources>

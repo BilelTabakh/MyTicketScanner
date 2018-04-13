@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.myticketscanner.MainActivity">
+
+    <ImageView
+        android:id="@+id/characterImageView"
+        android:src="@drawable/background_character"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/explanationTextView"
+        android:layout_below="@+id/characterImageView"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size"
+        android:text="@string/instructions_text"/>
+
+    <ImageView
+        android:layout_width="@dimen/explanation_image_width"
+        android:layout_height="@dimen/explanation_image_height"
+        android:layout_above="@+id/scanButton"
+        android:layout_below="@+id/explanationTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/scan" />
+
+
+    <Button
+        android:id="@+id/scanButton"
+        style="@style/buttonStyle"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/scan"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

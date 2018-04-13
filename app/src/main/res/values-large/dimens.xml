@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_width">242dp</dimen>
+    <dimen name="logo_height">233dp</dimen>
+    <dimen name="explanation_image_width">300dp</dimen>
+    <dimen name="explanation_image_height">300dp</dimen>
+    <dimen name="text_size">22sp</dimen>
+    <dimen name="button_text_size">22sp</dimen>
+    <dimen name="result_image_size">150dp</dimen>
+
+</resources>

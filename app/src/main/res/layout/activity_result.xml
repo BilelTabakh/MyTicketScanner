@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_vertical_margin"
+    android:layout_gravity="center"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/codeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/sadCharacterImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/background_character_sad"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/happyCharacterImageView"
+            android:layout_width="@dimen/result_image_size"
+            android:layout_height="@dimen/result_image_size"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/background_character_happy"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:visibility="gone"/>
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/progressBar"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/scanDoneButton"
+            style="@style/buttonStyle"
+            android:text="@string/okay"
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>
